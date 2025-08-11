@@ -1,7 +1,17 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}', './node_modules/flowbite/**/*.js'],
+  content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+      '3xl': '1920px',
+      '4xl': '2560px',
+      '5xl': '3840px',
+    },
     extend: {
       colors: {
         primary: {
@@ -20,35 +30,29 @@ export default {
         },
       },
       fontFamily: {
-        'Inter': ['Inter', 'sans-serif'],
+        Inter: ['Inter', 'sans-serif'],
       },
       fontSize: {
-        p: {
-            large: '20px',
-            medium: '16px',
-            small: '12px',
-        },
-        h: {
-          1: '57px',
-          2: '44px',
-          3: '40px',
-          4: '36px',
-          5: '32px'
-        },
-        hSmall: {
-            1: '44px',
-            2: '36px',
-            3: '32px',
-            4: '28px',
-            5: '24px'
-        }
+        'p-large': '20px',
+        'p-medium': '16px',
+        'p-small': '12px',
+        'h-1': '57px',
+        'h-2': '44px',
+        'h-3': '40px',
+        'h-4': '36px',
+        'h-5': '32px',
+        'hSmall-1': '44px',
+        'hSmall-2': '40px',
+        'hSmall-3': '30px',
+        'hSmall-4': '28px',
+        'hSmall-5': '24px',
+      },
+      spacing: {
+        18: '4.5rem',
+        88: '22rem',
+        128: '32rem',
       },
     },
   },
-  plugins: [
-    // Note: Si vous n'utilisez pas Flowbite, vous pouvez supprimer cette ligne
-    // require('flowbite/plugin')({
-    //   charts: true,
-    // }),
-  ],
+  plugins: [],
 }
