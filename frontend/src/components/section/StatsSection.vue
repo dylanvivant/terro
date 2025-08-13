@@ -1,5 +1,8 @@
 <template>
-  <section class="bg-secondary-vert w-full flex flex-col py-28 my-52" ref="sectionRef">
+  <section
+    class="bg-secondary-vert w-full flex flex-col py-28 mt-52 mb-28 xl:my-52"
+    ref="sectionRef"
+  >
     <div class="flex xl:flex-row flex-col items-center justify-center md:gap-24 gap-20">
       <div
         class="md:w-[300px] md:h-[250px] w-[255px] h-[215px] bg-primary-blanc rounded-2xl flex flex-col items-center justify-center"
