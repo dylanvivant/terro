@@ -1,11 +1,9 @@
 <template>
   <div class="min-h-screen flex flex-col">
-    <AppHeader />
     <main class="flex-grow">
       <RouterView />
       <Navbar />
     </main>
-    <AppFooter />
 
     <!-- Bouton flottant Calendly -->
     <FloatingCalendlyButton
@@ -19,8 +17,6 @@
 import { RouterView } from 'vue-router'
 import Navbar from './components/navigation/Navbar.vue'
 import FloatingCalendlyButton from './components/button/FloatingCalendlyButton.vue'
-import AppHeader from './components/layout/AppHeader.vue'
-import AppFooter from './components/layout/AppFooter.vue'
 </script>
 
 <style>
