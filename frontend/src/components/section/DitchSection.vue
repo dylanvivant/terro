@@ -1,15 +1,15 @@
 <template>
-  <section class="w-full bg-gradient-to-b from-gray-50 to-white mb-32">
-    <div class="container mx-auto px-4 max-w-7xl">
+  <section class="w-full h-full mb-32">
+    <div class="container lg:w-full w-[290px] mx-auto max-w-7xl">
       <!-- Titre principal et sous-titre -->
       <div class="text-center mb-16 lg:mb-20 animate-fade-in-up">
         <h2
-          class="text-h-3 lg:text-h-2 font-bold text-primary-vert mb-6 animate-fade-in-up animation-delay-200"
+          class="text-hSmall-2 md:text-h-3 lg:text-h-1 font-bold text-primary-vert mb-6 animate-fade-in-up animation-delay-200"
         >
           Le fossé numérique agricole
         </h2>
         <p
-          class="text-p-large lg:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed animate-fade-in-up animation-delay-400"
+          class="text-p-medium lg:text-h-4 text-primary-vert max-w-7xl mx-auto animate-fade-in-up animation-delay-400"
         >
           Pendant que le monde avance à la vitesse de la lumière grâce au numérique, nos
           agriculteurs - ces héros du quotidien - restent isolés des innovations qui pourraient
@@ -18,12 +18,12 @@
       </div>
 
       <!-- Contenu principal responsive -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-16 items-center">
         <!-- Section texte avec statistiques -->
         <div class="order-2 lg:order-1 animate-fade-in-left animation-delay-600">
-          <div class="bg-primary-vertClair/20 rounded-2xl p-8 lg:p-10">
+          <div class="bg-primary-vertClair/20 rounded-2xl p-6 lg:p-10">
             <h3
-              class="text-h-5 lg:text-h-4 font-bold text-primary-vert mb-6 animate-fade-in-up animation-delay-800"
+              class="text-hSmall-5 lg:text-h-5 font-bold text-primary-vert mb-6 animate-fade-in-up animation-delay-800"
             >
               Une injustice qui doit cesser
             </h3>
@@ -69,12 +69,12 @@
         <!-- Section illustration -->
         <div class="order-1 lg:order-2 relative animate-fade-in-right animation-delay-600">
           <div
-            class="relative rounded-2xl overflow-hidden min-h-[400px] lg:min-h-[500px] flex items-center justify-center animate-scale-in animation-delay-1000"
+            class="relative rounded-2xl overflow-hidden max-h-[354px] lg:max-h-[500px] w-[256px] lg:w-[582px] flex items-center justify-center animate-scale-in animation-delay-1000"
           >
             <img
               src="/public/images/illustrations/farmer.png"
               alt="Agriculteur illustrant le fossé numérique"
-              class="w-full h-full object-cover rounded-2xl"
+              class="object-cover rounded-2xl"
             />
           </div>
         </div>

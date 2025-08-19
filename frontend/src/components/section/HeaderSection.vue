@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-[#E6EDE9] flex xl:hidden flex-col rounded-[20px] lg:rounded-[30px] mx-4 mt-18 md:mt-24 lg:mx-12 h-[295px] w-[295px] md:w-[706px] md:h-[706px] relative overflow-hidden"
+    class="bg-[#E6EDE9] flex xl:hidden flex-col rounded-[20px] lg:rounded-[30px] mx-4 mt-24 md:mt-24 lg:mx-12 h-[295px] w-[295px] md:w-[706px] md:h-[706px] relative overflow-hidden"
   >
     <div class="flex flex-col md:flex-row items-start mx-5 mt-5 md:mx-12 md:mt-12">
       <div class="relative flex-shrink-0 w-[255px] md:w-[611px] h-[220px] md:h-[524px]">
