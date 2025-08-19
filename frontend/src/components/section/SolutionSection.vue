@@ -11,11 +11,12 @@
     <!-- Solutions Cards -->
     <div class="container mx-auto flex flex-col justify-center items-center px-4 xl:w-6xl">
       <div
-        class="mx-auto flex flex-col xl:flex-row justify-items-center md:w-128 xl:w-full gap-8 lg:gap-12"
+        class="flex flex-col xl:flex-row justify-center items-center md:w-128 xl:w-full gap-8 lg:gap-12"
       >
         <!-- myOxyane Card -->
         <div
-          class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl transition-shadow duration-300"
+          class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer"
+          @click="$router.push('/myoxyane')"
         >
           <div class="mb-6">
             <img
@@ -33,7 +34,8 @@
 
         <!-- Kapflow Card -->
         <div
-          class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl transition-shadow duration-300"
+          class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer"
+          @click="$router.push('/kapflow')"
         >
           <div class="mb-6">
             <img
@@ -51,7 +53,8 @@
 
         <!-- Solutions personnalisées Card -->
         <div
-          class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl transition-shadow duration-300 xl:col-span-1"
+          class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer xl:col-span-1"
+          @click="$router.push('/solutions-personnalisees')"
         >
           <div class="mb-6">
             <img
@@ -60,7 +63,7 @@
               class="w-60 h-60 md:w-96 md:h-96 xl:w-64 xl:h-64 mx-auto object-contain"
             />
           </div>
-          <h3 class="text-hSmall-4 lg:text-hSmall-3 font-bold text-primary-vert mb-4">
+          <h3 class="text-hSmall-4 lg:text-hSmall-3 font-bold leading-tight text-primary-vert mb-4">
             Solutions personnalisées
           </h3>
           <p class="text-p-medium text-primary-vert leading-relaxed mb-6">
@@ -73,10 +76,9 @@
       <!-- Call to Action -->
       <div class="text-end mt-12 mb-4 lg:mt-16">
         <button
-          @click="$router.push('/solutions')"
-          class="inline-flex items-center gap-2 text-primary-vert font-semibold text-p-large hover:text-primary-vertClair transition-colors duration-300 group"
+          class="inline-flex items-center gap-2 text-primary-vert font-semibold text-p-large hover:text-secondary-vert transition-colors duration-300 group"
         >
-          <span class="font-">voir plus</span>
+          <span class="font-light">voir <span class="font-semibold">plus</span></span>
           <svg
             class="w-5 h-5 transform transition-transform duration-300 group-hover:translate-x-1"
             fill="none"

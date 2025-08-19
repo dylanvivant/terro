@@ -1,6 +1,6 @@
 <template>
   <section class="w-full h-full mb-32">
-    <div class="container lg:w-full w-[290px] mx-auto max-w-7xl">
+    <div class="container lg:w-full md:w-[480px] w-[290px] mx-auto max-w-7xl">
       <!-- Titre principal et sous-titre -->
       <div class="text-center mb-16 lg:mb-20 animate-fade-in-up">
         <h2
@@ -69,7 +69,7 @@
         <!-- Section illustration -->
         <div class="order-1 lg:order-2 relative animate-fade-in-right animation-delay-600">
           <div
-            class="relative rounded-2xl overflow-hidden max-h-[354px] lg:max-h-[500px] w-[256px] lg:w-[582px] flex items-center justify-center animate-scale-in animation-delay-1000"
+            class="relative rounded-2xl overflow-hidden max-h-[354px] md:max-h-[500px] w-[256px] md:w-[480px] lg:w-[582px] flex items-center justify-center animate-scale-in animation-delay-1000"
           >
             <img
               src="/public/images/illustrations/farmer.png"

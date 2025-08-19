@@ -6,12 +6,21 @@
       <Navbar />
     </main>
     <AppFooter />
+
+    <!-- Bouton flottant Calendly -->
+    <FloatingCalendlyButton
+      :calendlyUrl="'https://calendly.com/votre-lien-calendly'"
+      :openInNewTab="true"
+    />
   </div>
 </template>
 
 <script setup>
 import { RouterView } from 'vue-router'
 import Navbar from './components/navigation/Navbar.vue'
+import FloatingCalendlyButton from './components/button/FloatingCalendlyButton.vue'
+import AppHeader from './components/layout/AppHeader.vue'
+import AppFooter from './components/layout/AppFooter.vue'
 </script>
 
 <style>

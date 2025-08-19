@@ -1,9 +1,9 @@
 <template>
   <button
-    class="bg-primary-orange rounded-full sm:w-[225px] sm:h-[75px] w-[155px] h-[50px] text-white sm:text-p-medium text-p-small font-semibold hover:bg-primary-orange/90 transition-colors duration-300"
+    class="bg-primary-orange rounded-full sm:w-[255px] sm:h-[75px] w-[255px] h-[50px] text-white sm:text-p-medium text-p-medium font-semibold hover:bg-primary-orange/90 transition-colors duration-300"
     @click="handleClick"
   >
-    <span class="font-light">NOS</span> <span class="font-bold">SOLUTIONS</span>
+    <span class="font-light">PLANIFIER UN</span> <span class="font-bold"> RENDEZ-VOUS</span>
   </button>
 </template>
 
@@ -30,4 +30,5 @@ const handleClick = () => {
   }
 }
 </script>
+
 <style lang="scss" scoped></style>

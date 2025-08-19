@@ -1,6 +1,6 @@
 <template>
   <header
-    class="fixed left-1/2 transform -translate-x-1/2 bottom-16 w-[285px] md:w-[475px] lg:w-[520px] xl:w-[580px] h-[50px] md:h-[70px] lg:h-[75px] rounded-full flex flex-row items-center justify-between px-5 py-7 lg:px-6 lg:py-8 backdrop-blur-md bg-white/5 border border-white/20 z-[99]"
+    class="fixed left-1/2 transform -translate-x-1/2 bottom-16 w-[285px] md:w-[475px] lg:w-[520px] xl:w-[580px] h-[50px] md:h-[70px] lg:h-[75px] rounded-full flex flex-row items-center justify-between px-5 md:py-7 lg:px-6 lg:py-8 backdrop-blur-md bg-secondary-vert/10 border border-white/20 z-[99]"
   >
     <router-link
       to="/"
