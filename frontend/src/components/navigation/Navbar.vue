@@ -4,19 +4,19 @@
   >
     <router-link
       to="/"
-      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
+      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 xl:hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
     >
       mission
     </router-link>
     <router-link
-      to="/about"
-      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
+      to="/solutions"
+      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 xl:hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
     >
-      solution
+      solutions
     </router-link>
     <router-link
       to="/contact"
-      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
+      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 xl:hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
     >
       contact
     </router-link>

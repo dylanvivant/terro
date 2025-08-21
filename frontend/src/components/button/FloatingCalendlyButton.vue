@@ -1,8 +1,11 @@
 <template>
   <Transition name="fade-scale">
-    <div v-if="showFloatingButton" class="fixed bottom-16 right-12 z-50">
+    <div
+      v-if="showFloatingButton"
+      class="fixed max-md:top-16 max-md:left-5 md:bottom-16 md:right-12 z-50"
+    >
       <button
-        class="bg-primary-orange hover:bg-primary-orange/90 text-white rounded-full w-16 h-16 md:w-20 md:h-20 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group"
+        class="bg-primary-orange md:flex hidden hover:bg-primary-orange/90 text-white rounded-full w-16 h-16 md:w-20 md:h-20 shadow-lg hover:shadow-xl transition-all duration-300 items-center justify-center group"
         @click="handleClick"
         aria-label="Planifier un rendez-vous"
       >
@@ -24,9 +27,21 @@
 
       <!-- Tooltip -->
       <div
-        class="absolute right-full top-1/2 transform -translate-y-1/2 mr-3 bg-gray-800 text-white text-sm px-3 py-2 rounded-lg whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+        class="bg-primary-orange flex md:hidden hover:bg-primary-orange/90 text-white rounded-full text-p-small p-4 shadow-lg hover:shadow-xl transition-all duration-300 items-center justify-center group"
       >
-        Planifier un rendez-vous
+        <svg
+          class="w-6 h-6 transition-transform duration-300 group-hover:scale-110"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+          />
+        </svg>
       </div>
     </div>
   </Transition>

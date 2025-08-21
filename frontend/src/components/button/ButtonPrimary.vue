@@ -14,7 +14,7 @@ import { defineProps } from 'vue'
 const props = defineProps({
   calendlyUrl: {
     type: String,
-    default: 'https://calendly.com/votre-lien-calendly', // Remplacez par votre vrai lien Calendly
+    default: '/solutions', // Remplacez par votre vrai lien Calendly
   },
   openInNewTab: {
     type: Boolean,
