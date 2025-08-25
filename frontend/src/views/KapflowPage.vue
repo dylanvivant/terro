@@ -2,7 +2,7 @@
   <div class="myoxygene-page min-h-screen">
     <!-- Hero Section -->
     <header
-      class="bg-white p-5 rounded-b-2xl md:rounded-b-[40px] flex flex-row justify-between items-center w-[calc(100%-them images: [ { src: '/images/illustrations/farmer.png', alt: 'Agriculteur dans les champs', height: 'h-80 md:h-96' }, { src: '/images/projects/myoxygene-dashboard.png', alt: 'Interface myOxygène dashboard', height: 'h-64 md:h-80' } ])] md:w-[50dvw] mx-auto"
+      class="bg-white p-5 xl:p-10 rounded-b-2xl md:rounded-b-[40px] flex flex-row justify-between items-center w-[calc(100%-them images: [ { src: '/images/illustrations/farmer.png', alt: 'Agriculteur dans les champs', height: 'h-80 md:h-96' }, { src: '/images/projects/myoxygene-dashboard.png', alt: 'Interface myOxygène dashboard', height: 'h-64 md:h-80' } ])] md:w-[50dvw] mx-auto"
     >
       <h1 class="text-2xl xl:text-h-1 font-bold text-primary-vert">Kapflow</h1>
       <div>
@@ -79,9 +79,7 @@
     </header>
 
     <!-- Image Carousel Section -->
-    <section
-      class="py-16 bg-gradient-to-b from-white to-gray-50 flex flex-col xl:flex-row justify-center max-xl:items-center gap-8"
-    >
+    <section class="py-16 flex flex-col xl:flex-row justify-center max-xl:items-center gap-8">
       <div class="w-[240px] md:w-[615px]">
         <!-- Swiper Carousel -->
         <div class="relative">
@@ -166,7 +164,9 @@
           </p>
 
           <!-- Grid des fonctionnalités -->
-          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-8">
+          <div
+            class="md:grid flex flex-col justify-center items-center md:grid-cols-2 xl:grid-cols-3 gap-8 mb-8"
+          >
             <ProductCard
               title="Vos comptes en temps réel"
               description="Fini les appels pour connaître votre situation"

@@ -14,16 +14,37 @@
     >
       solutions
     </router-link>
-    <router-link
-      to="/contact"
-      class="text-primary-vert text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 xl:hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
+    <bouton
+      @click="handleClick"
+      class="text-primary-vert cursor-pointer text-p-small md:text-p-medium lg:text-p-large font-light transition-all duration-300 xl:hover:text-primary-vertClair hover:scale-105 px-2 py-1 rounded-lg"
     >
       contact
-    </router-link>
+    </bouton>
   </header>
 </template>
 
-<script setup></script>
+<script setup>
+import { defineProps } from 'vue'
+
+// Props pour personnaliser le lien Calendly
+const props = defineProps({
+  calendlyUrl: {
+    type: String,
+    default: 'https://calendly.com/votre-lien-calendly', // Remplacez par votre vrai lien Calendly
+  },
+  openInNewTab: {
+    type: Boolean,
+    default: true,
+  },
+})
+const handleClick = () => {
+  if (props.openInNewTab) {
+    window.open(props.calendlyUrl, '_blank', 'noopener,noreferrer')
+  } else {
+    window.location.href = props.calendlyUrl
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 header {

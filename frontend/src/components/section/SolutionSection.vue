@@ -16,7 +16,7 @@
         <!-- myOxyane Card -->
         <div
           class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer"
-          @click="$router.push('/myoxyane')"
+          @click="navigateToPage('/myoxyane')"
         >
           <div class="mb-6">
             <img
@@ -35,7 +35,7 @@
         <!-- Kapflow Card -->
         <div
           class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer"
-          @click="$router.push('/kapflow')"
+          @click="navigateToPage('/kapflow')"
         >
           <div class="mb-6">
             <img
@@ -54,7 +54,7 @@
         <!-- Solutions personnalisées Card -->
         <div
           class="bg-white xl:w-96 rounded-xl shadow-lg p-8 text-start hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer xl:col-span-1"
-          @click="$router.push('/solutions-personnalisees')"
+          @click="handleClick"
         >
           <div class="mb-6">
             <img
@@ -76,6 +76,7 @@
       <!-- Call to Action -->
       <div class="text-end mt-12 mb-4 lg:mt-16">
         <button
+          @click="navigateToPage('/solutions')"
           class="inline-flex items-center gap-2 text-primary-vert font-semibold text-p-large hover:text-secondary-vert transition-colors duration-300 group"
         >
           <span class="font-light">voir <span class="font-semibold">plus</span></span>
@@ -98,7 +99,22 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+const navigateToPage = (path) => {
+  router.push(path).then(() => {
+    // Faire défiler vers le haut de la nouvelle page
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  })
+}
+
+const handleClick = () => {
+  window.open('https://calendly.com/votre-lien-calendly', '_blank', 'noopener,noreferrer')
+}
+</script>
 
 <style lang="scss" scoped>
 .container {
