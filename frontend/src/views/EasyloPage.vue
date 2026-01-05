@@ -266,12 +266,29 @@ const modules = [Autoplay, Pagination]
 // Carousel images data
 const carouselImages = ref([
   {
-    src: '/images/projects/myoxygene-dashboard.png',
-    alt: 'Dashboard myOxygène',
+    src: '/images/projects/easylo/Shot.png',
+    alt: 'Application mobile easylo',
   },
   {
-    src: '/images/projects/myoxygene-mobile.png',
-    alt: 'Application mobile myOxygène',
+    src: '/images/projects/easylo/Shot-1.png',
+    alt: 'Application mobile easylo',
+  },
+  {
+    src: '/images/projects/easylo/Shot-2.png',
+    alt: 'Application mobile easylo',
+  },
+  {
+    src: '/images/projects/easylo/Shot-3.png',
+    alt: 'Application mobile easylo',
+  },
+  {
+    src: '/images/projects/easylo/Shot-4.png',
+    alt: 'Application mobile easylo',
+  },
+
+  {
+    src: '/images/projects/easylo/Shot-5.png',
+    alt: 'Application mobile easylo',
   },
 ])
 
@@ -280,7 +297,7 @@ const sectionData = ref({
   title: 'Comment nous révolutionnons le quotidien agricole',
   buttonText: 'VOIR PLUS',
   paragraphs: [
-    `Chez <strong>Terr'O</strong>, nous refusons la complexité inutile. <strong>myOxyane</strong> n'est pas une énième application compliquée pensée par des développeurs en costumes. C'est un outil conçu avec et pour les agriculteurs, dans la simplicité et l'efficacité.`,
+    `Chez <strong>Terr'O</strong>, nous refusons la complexité inutile. <strong>Easylo</strong> n'est pas une énième application compliquée pensée par des développeurs en costumes. C'est un outil conçu avec et pour les agriculteurs, dans la simplicité et l'efficacité.`,
     `Notre approche ? <strong>L'agriculture connectée, enfin accessible</strong>. Nous transformons des heures de paperasse en quelques clics. Nous remplaçons les appels interminables par des informations instantanées. Nous digitisons sans déshumaniser, en gardant le lien précieux entre l'agriculteur et sa coopérative.`,
   ],
   images: [

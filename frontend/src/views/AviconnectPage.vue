@@ -266,12 +266,49 @@ const modules = [Autoplay, Pagination]
 // Carousel images data
 const carouselImages = ref([
   {
-    src: '/images/projects/myoxygene-dashboard.png',
-    alt: 'Dashboard myOxygène',
+    src: '/images/projects/aviconnect/Shot.png',
+    alt: 'Application mobile aviconnect',
   },
   {
-    src: '/images/projects/myoxygene-mobile.png',
-    alt: 'Application mobile myOxygène',
+    src: '/images/projects/aviconnect/Shot-1.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-2.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-3.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-4.png',
+    alt: 'Application mobile aviconnect',
+  },
+
+  {
+    src: '/images/projects/aviconnect/Shot-6.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-7.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-8.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-9.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-10.png',
+    alt: 'Application mobile aviconnect',
+  },
+  {
+    src: '/images/projects/aviconnect/Shot-11.png',
+    alt: 'Application mobile aviconnect',
   },
 ])
 

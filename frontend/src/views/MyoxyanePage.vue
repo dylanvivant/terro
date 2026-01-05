@@ -266,12 +266,24 @@ const modules = [Autoplay, Pagination]
 // Carousel images data
 const carouselImages = ref([
   {
-    src: '/images/projects/myoxygene-dashboard.png',
-    alt: 'Dashboard myOxygène',
+    src: '/images/projects/oxyane/Shot.png',
+    alt: 'Application mobile myOxyane',
   },
   {
-    src: '/images/projects/myoxygene-mobile.png',
-    alt: 'Application mobile myOxygène',
+    src: '/images/projects/oxyane/Shot-1.png',
+    alt: 'Application mobile myOxyane',
+  },
+  {
+    src: '/images/projects/oxyane/Shot-2.png',
+    alt: 'Application mobile myOxyane',
+  },
+  {
+    src: '/images/projects/oxyane/Shot-3.png',
+    alt: 'Application mobile myOxyane',
+  },
+  {
+    src: '/images/projects/oxyane/Shot-4.png',
+    alt: 'Application mobile myOxyane',
   },
 ])
 
