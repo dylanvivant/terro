@@ -98,7 +98,7 @@ const solutions = ref([
     id: 'aviconnect',
     name: 'Avi connect',
     description:
-      'Plateforme collaborative pour les aviculteurs, facilitant la gestion des élevages et le partage de bonnes pratiques.',
+      'Plateforme digitale pour les aviculteurs, facilitant la gestion des élevages et de leur exploitation.',
     image: '/images/illustrations/aviconnect.png',
   },
 ])

@@ -4,7 +4,7 @@
     <header
       class="bg-white p-5 xl:p-10 rounded-b-2xl md:rounded-b-[40px] flex flex-row justify-between items-center w-[calc(100%-them images: [ { src: '/images/illustrations/farmer.png', alt: 'Agriculteur dans les champs', height: 'h-80 md:h-96' }, { src: '/images/projects/myoxygene-dashboard.png', alt: 'Interface myOxygène dashboard', height: 'h-64 md:h-80' } ])] md:w-[50dvw] mx-auto"
     >
-      <h1 class="text-2xl xl:text-h-1 font-bold text-primary-vert">Avi connect</h1>
+      <h1 class="text-2xl xl:text-h-1 font-bold text-primary-vert">Avi Connect</h1>
       <div>
         <div class="flex items-center space-x-4">
           <!-- Desktop SVG -->
@@ -116,24 +116,28 @@
       <div class="w-[240px] md:w-[580px] flex flex-col items-center space-y-8">
         <div>
           <p class="text-p-small md:text-p-medium text-secondary-vert font-light">
-            Imaginez Pierre, agriculteur dans la Beauce. À 6h du matin, il est déjà dans ses champs.
-            À 19h, après une journée épuisante, il doit encore passer des heures au téléphone avec
-            sa coopérative : vérifier ses comptes, suivre ses livraisons, chercher des documents
-            perdus dans des classeurs poussiéreux. Pierre rate le dîner avec sa famille.
+            Imaginez un éleveur gérant 3 bâtiments de 15 000 poules pondeuses chacun. Chaque matin,
+            il relève manuellement les données de ponte, note la mortalité sur un carnet, vérifie la
+            consommation d'eau et d'aliments. Quand son technicien passe en visite, il doit
+            reconstituer l'historique des 15 derniers jours à partir de notes éparses. Résultat :
           </p>
-          <p class="text-p-small md:text-p-medium text-secondary-vert font-bold">Encore.</p>
+          <p class="text-p-small md:text-p-medium text-secondary-vert font-bold">
+            Des anomalies détectées trop tard, des échanges imprécis, et cette sensation permanente
+            de "courir après l'information" plutôt que de piloter sereinement son élevage.
+          </p>
           <p class="text-p-small md:text-p-medium text-secondary-vert font-light">
-            Cette réalité nous révolte. Ceux qui nous nourrissent chaque jour méritent mieux que des
-            tâches administratives chronophages qui les éloignent de leur passion et de leur
-            famille. Ils méritent une technologie qui leur redonne du temps plutôt que de leur en
-            prendre.
+            Cette frustration nous révolte. Les éleveurs méritent mieux que des données dispersées
+            entre carnets papier et fichiers Excel. Ils méritent de se concentrer sur leur métier —
+            le soin de leurs animaux — plutôt que sur de la paperasse administrative. Ils méritent
+            une technologie qui leur redonne la maîtrise de leur exploitation.
           </p>
-          <h2 class="text-hSmall-5 md:text-h-4 text-primary-orange my-6 font-light">
-            C’est pourquoi <span class="font-bold">myOxyane</span> existe.
+          <h2 class="text-hSmall-5 md:text-h-5 text-primary-orange my-6 font-light">
+            C'est pourquoi <span class="font-bold">Avi Connect</span> existe.
           </h2>
           <p class="text-p-small md:text-p-medium text-secondary-vert font-light">
-            Nous croyons que chaque minute gagnée sur l'administratif est une minute de plus aux
-            champs, en famille, ou pour développer son exploitation.
+            Nous croyons que la simplicité libère l'expertise. Un éleveur qui accède instantanément
+            à ses données, qui visualise clairement l'état de ses lots et qui peut échanger
+            efficacement avec son technicien, retrouve la sérénité et la performance.
           </p>
         </div>
         <ButtonCalendly />
@@ -154,13 +158,13 @@
       <div class="mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-bold text-primary-vert mb-4">
-            Ce que myOxyane vous apporte concrètement
+            Ce qu'AviConnect vous apporte concrètement
           </h2>
           <p class="text-lg md:text-xl text-gray-600 mb-4 max-w-3xl mx-auto">
-            myOxyane, c'est votre coopérative dans votre poche.
+            Avi Connect, c'est le pilotage de votre élevage à portée de main.
           </p>
           <p class="text-lg md:text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
-            Une application mobile qui centralise tout ce dont vous avez besoin :
+            Une application mobile et web qui centralise toutes vos données d'élevage :
           </p>
 
           <!-- Grid des fonctionnalités -->
@@ -168,45 +172,45 @@
             class="md:grid flex flex-col justify-center items-center md:grid-cols-2 xl:grid-cols-3 gap-8 mb-8"
           >
             <ProductCard
-              title="Vos comptes en temps réel"
-              description="Fini les appels pour connaître votre situation"
-              image="/images/icons/comptes.png"
+              title="Suivi des lots en temps réel"
+              description="Historique complet et traçabilité de chaque bâtiment"
+              image="/images/icons/aviconnect/lots.png"
               class="h-full"
             />
             <ProductCard
-              title="Le suivi de vos apports"
-              description="Visualisez vos livraisons et tonnages en un coup d'œil"
-              image="/images/icons/apport.png"
+              title="Tableaux de bord statistiques"
+              description="% de ponte, mortalité, consommation — en un coup d'œil"
+              image="/images/icons/aviconnect/dashboard.png"
               class="h-full"
             />
             <ProductCard
-              title="La bourse aux grains"
-              description="Négociez au meilleur moment, depuis votre tracteur"
-              image="/images/icons/bourse.png"
+              title="Vue multi-bâtiments"
+              description="Comparaison et gestion centralisée de votre exploitation"
+              image="/images/icons/aviconnect/batiment.png"
               class="h-full"
             />
             <ProductCard
-              title="Vos commandes"
-              description="Consultez l'historique et le statut de vos dernières commandes"
-              image="/images/icons/commande.png"
+              title="Saisie simplifiée"
+              description="Fini les doubles saisies et les carnets papier"
+              image="/images/icons/aviconnect/simple.png"
               class="h-full"
             />
             <ProductCard
-              title="Vos documents"
-              description="Stockage sécurisé, accessible partout, même sans réseau"
-              image="/images/icons/document.png"
+              title="Partage de données"
+              description="Collaboration fluide et visites préparées avec données partagées"
+              image="/images/icons/aviconnect/partage.png"
               class="h-full"
             />
             <ProductCard
-              title="Vos contacts"
-              description="Tous vos interlocuteurs coop à portée de main"
-              image="/images/icons/contact.png"
+              title="Détection des anomalies"
+              description="Visualisation des tendances et alertes précoces"
+              image="/images/icons/aviconnect/anomalies.png"
               class="h-full"
             />
             <ProductCard
-              title="Le suivi de collecte"
-              description="Bon par bon, tonne par tonne, tout est tracé"
-              image="/images/icons/suivi.png"
+              title="Analyses de performance"
+              description="Décisions éclairées basées sur des données fiables"
+              image="/images/icons/aviconnect/performance.png"
               class="h-full"
             />
             <!-- Notre promesse comme une ProductCard -->
@@ -218,19 +222,19 @@
                   Notre promesse
                 </h3>
                 <p class="text-sm md:text-p-large text-primary-vert mb-4 leading-relaxed">
-                  Avec myOxyane, Pierre rentre maintenant à 19h et dîne avec sa famille. En 5
-                  minutes sur son smartphone, il a vérifié ses comptes, suivi ses livraisons et
-                  consulté la bourse aux grains.
+                  Avec Avi Connect, notre éleveur pilote maintenant sereinement ses 3 bâtiments. En
+                  quelques minutes sur son smartphone, il visualise les performances de chaque lot,
+                  détecte les anomalies et prépare efficacement la visite de son technicien.
                 </p>
                 <p class="text-sm md:text-p-large text-primary-orange font-bold mb-3">
-                  C'est ça, l'agriculture de demain : connectée, mais humaine.
+                  C'est ça, l'élevage de demain : connecté, mais collaboratif.
                 </p>
                 <p class="text-sm md:text-p-large text-primary-orange font-bold mb-3">
-                  Efficace, mais simple. Innovante, mais accessible à tous.
+                  Performant, mais simple. Innovant, mais conçu par et pour le terrain.
                 </p>
                 <p class="text-sm md:text-p-large text-primary-vert italic">
-                  Parce que ceux qui font vivre le monde méritent une technologie qui leur facilite
-                  la vie.
+                  Parce que ceux qui prennent soin de leurs animaux méritent une technologie qui les
+                  accompagne vraiment.
                 </p>
               </div>
             </div>
@@ -314,20 +318,20 @@ const carouselImages = ref([
 
 // Section component data
 const sectionData = ref({
-  title: 'Comment nous révolutionnons le quotidien agricole',
+  title: 'Comment nous révolutionnons le pilotage des élevages',
   buttonText: 'VOIR PLUS',
   paragraphs: [
-    `Chez <strong>Terr'O</strong>, nous refusons la complexité inutile. <strong>myOxyane</strong> n'est pas une énième application compliquée pensée par des développeurs en costumes. C'est un outil conçu avec et pour les agriculteurs, dans la simplicité et l'efficacité.`,
-    `Notre approche ? <strong>L'agriculture connectée, enfin accessible</strong>. Nous transformons des heures de paperasse en quelques clics. Nous remplaçons les appels interminables par des informations instantanées. Nous digitisons sans déshumaniser, en gardant le lien précieux entre l'agriculteur et sa coopérative.`,
+    `Chez <strong>Terr'O</strong>, nous refusons la complexité inutile. <strong>Avi Connect</strong> n'est pas une énième solution technique déconnectée du terrain. C'est un outil développé en co-construction avec les acteurs de la filière avicole, pour répondre aux vrais besoins du métier.`,
+    `Notre approche ? <strong>La collaboration au cœur de la performance</strong>. Nous connectons l'écosystème complet — éleveur, technicien — autour des mêmes données en temps réel. Nous accompagnons chaque utilisateur individuellement, parce qu'une bonne technologie doit faciliter le travail, pas le complexifier. Une meilleure visibilité = de meilleures décisions = moins de stress et plus de performance.`,
   ],
   images: [
     {
-      src: '/images/fermer1.jpg',
+      src: '/images/poule1.jpg',
       alt: 'Champs agricoles au coucher du soleil',
       height: 'h-[84px] md:h-96',
     },
     {
-      src: '/images/fermer2.jpg',
+      src: '/images/poule2.jpg',
       alt: 'Tracteur dans les champs',
       height: 'h-[184px] md:h-96',
     },
