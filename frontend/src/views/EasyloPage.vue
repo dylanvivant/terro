@@ -116,24 +116,28 @@
       <div class="w-[240px] md:w-[580px] flex flex-col items-center space-y-8">
         <div>
           <p class="text-p-small md:text-p-medium text-secondary-vert font-light">
-            Imaginez Pierre, agriculteur dans la Beauce. À 6h du matin, il est déjà dans ses champs.
-            À 19h, après une journée épuisante, il doit encore passer des heures au téléphone avec
-            sa coopérative : vérifier ses comptes, suivre ses livraisons, chercher des documents
-            perdus dans des classeurs poussiéreux. Pierre rate le dîner avec sa famille.
+            Pleine moisson, 6h du matin. Un chauffeur arrive sur le site avec 25 tonnes de blé.
+            Personne n'est encore au bureau pour lui indiquer où décharger. Il se positionne devant
+            le silo 3 — celui qu'il utilisait hier. Problème : le silo 3 a été rempli à 95% en fin
+            de journée et est maintenant réservé à l'orge. Le temps de reculer, de trouver le bon
+            emplacement, 20 minutes sont perdues. Derrière lui, trois autres camions attendent.
           </p>
-          <p class="text-p-small md:text-p-medium text-secondary-vert font-bold">Encore.</p>
+          <p class="text-p-small md:text-p-medium text-secondary-vert font-bold">Chaque jour.</p>
           <p class="text-p-small md:text-p-medium text-secondary-vert font-light">
-            Cette réalité nous révolte. Ceux qui nous nourrissent chaque jour méritent mieux que des
-            tâches administratives chronophages qui les éloignent de leur passion et de leur
-            famille. Ils méritent une technologie qui leur redonne du temps plutôt que de leur en
-            prendre.
+            Cette frustration nous révolte. En pleine période de récolte, les gestionnaires jonglent
+            entre appels téléphoniques, tableaux blancs et leur mémoire. Les chauffeurs perdent du
+            temps dans des files d'attente évitables. Tout cela à cause d'un manque d'information en
+            temps réel. Ils méritent mieux qu'un chaos quotidien basé sur l'improvisation et le
+            stress.
           </p>
           <h2 class="text-hSmall-5 md:text-h-4 text-primary-orange my-6 font-light">
-            C’est pourquoi <span class="font-bold">myOxyane</span> existe.
+            C'est pourquoi <span class="font-bold">Easylo</span> existe.
           </h2>
           <p class="text-p-small md:text-p-medium text-secondary-vert font-light">
-            Nous croyons que chaque minute gagnée sur l'administratif est une minute de plus aux
-            champs, en famille, ou pour développer son exploitation.
+            Nous croyons que l'information au bon moment, au bon endroit, élimine le chaos. Un
+            chauffeur qui connaît sa destination avant même d'arriver, un gestionnaire qui visualise
+            l'état de ses silos en temps réel : c'est la clé d'une logistique fluide. Moins
+            d'incertitude = moins de stress = plus d'efficacité pour tous.
           </p>
         </div>
         <ButtonCalendly />
@@ -154,13 +158,13 @@
       <div class="mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-bold text-primary-vert mb-4">
-            Ce que myOxyane vous apporte concrètement
+            Ce qu'Easylo vous apporte concrètement
           </h2>
           <p class="text-lg md:text-xl text-gray-600 mb-4 max-w-3xl mx-auto">
-            myOxyane, c'est votre coopérative dans votre poche.
+            Easylo, c'est la gestion de vos silos à portée de main.
           </p>
           <p class="text-lg md:text-xl text-gray-600 mb-16 max-w-3xl mx-auto">
-            Une application mobile qui centralise tout ce dont vous avez besoin :
+            Une application mobile et web qui coordonne gestionnaires et chauffeurs en temps réel :
           </p>
 
           <!-- Grid des fonctionnalités -->
@@ -168,45 +172,45 @@
             class="md:grid flex flex-col justify-center items-center md:grid-cols-2 xl:grid-cols-3 gap-8 mb-8"
           >
             <ProductCard
-              title="Vos comptes en temps réel"
-              description="Fini les appels pour connaître votre situation"
-              image="/images/icons/comptes.png"
+              title="Suivi du remplissage en temps réel"
+              description="Visualisation instantanée du % de capacité de chaque silo"
+              image="/images/icons/easylo/remplissage.png"
               class="h-full"
             />
             <ProductCard
-              title="Le suivi de vos apports"
-              description="Visualisez vos livraisons et tonnages en un coup d'œil"
-              image="/images/icons/apport.png"
+              title="Priorisation intelligente des silos"
+              description="Affectation claire des camions selon disponibilité et type de grain"
+              image="/images/icons/easylo/priorisation.png"
               class="h-full"
             />
             <ProductCard
-              title="La bourse aux grains"
-              description="Négociez au meilleur moment, depuis votre tracteur"
-              image="/images/icons/bourse.png"
+              title="Interface chauffeur mobile"
+              description="Le chauffeur sait où aller avant même d'arriver sur site"
+              image="/images/icons/easylo/chauffeur.png"
               class="h-full"
             />
             <ProductCard
-              title="Vos commandes"
-              description="Consultez l'historique et le statut de vos dernières commandes"
-              image="/images/icons/commande.png"
+              title="Tableau de bord gestionnaire"
+              description="Vision globale du site, anticipation des saturations"
+              image="/images/icons/easylo/gestionnaire.png"
               class="h-full"
             />
             <ProductCard
-              title="Vos documents"
-              description="Stockage sécurisé, accessible partout, même sans réseau"
-              image="/images/icons/document.png"
+              title="Flux optimisés"
+              description="Rotation plus rapide, meilleure utilisation de la capacité"
+              image="/images/icons/easylo/flux.png"
               class="h-full"
             />
             <ProductCard
-              title="Vos contacts"
-              description="Tous vos interlocuteurs coop à portée de main"
-              image="/images/icons/contact.png"
+              title="Historique des mouvements"
+              description="Traçabilité complète de toutes les opérations de chargement"
+              image="/images/icons/easylo/historique.png"
               class="h-full"
             />
             <ProductCard
-              title="Le suivi de collecte"
-              description="Bon par bon, tonne par tonne, tout est tracé"
-              image="/images/icons/suivi.png"
+              title="Autonomie des chauffeurs"
+              description="Moins d'appels, moins de sollicitations du gestionnaire"
+              image="/images/icons/easylo/chauffeurs.png"
               class="h-full"
             />
             <!-- Notre promesse comme une ProductCard -->
@@ -218,19 +222,20 @@
                   Notre promesse
                 </h3>
                 <p class="text-sm md:text-p-large text-primary-vert mb-4 leading-relaxed">
-                  Avec myOxyane, Pierre rentre maintenant à 19h et dîne avec sa famille. En 5
-                  minutes sur son smartphone, il a vérifié ses comptes, suivi ses livraisons et
-                  consulté la bourse aux grains.
+                  Avec Easylo, notre chauffeur arrive désormais serein. En un coup d'œil sur son
+                  smartphone, il sait exactement quel silo utiliser. Le gestionnaire, lui, pilote 20
+                  rotations par jour sans décrocher son téléphone. La moisson devient fluide.
                 </p>
                 <p class="text-sm md:text-p-large text-primary-orange font-bold mb-3">
-                  C'est ça, l'agriculture de demain : connectée, mais humaine.
+                  C'est ça, la logistique de demain : coordonnée, mais simple.
                 </p>
                 <p class="text-sm md:text-p-large text-primary-orange font-bold mb-3">
-                  Efficace, mais simple. Innovante, mais accessible à tous.
+                  Efficace, mais accessible. Temps réel, mais conçu pour être utilisé en 30
+                  secondes.
                 </p>
                 <p class="text-sm md:text-p-large text-primary-vert italic">
-                  Parce que ceux qui font vivre le monde méritent une technologie qui leur facilite
-                  la vie.
+                  Parce que ceux qui nourrissent le monde méritent une logistique qui ne les
+                  ralentit pas, mais qui les propulse.
                 </p>
               </div>
             </div>
@@ -294,20 +299,20 @@ const carouselImages = ref([
 
 // Section component data
 const sectionData = ref({
-  title: 'Comment nous révolutionnons le quotidien agricole',
+  title: 'Comment nous révolutionnons la gestion des silos',
   buttonText: 'VOIR PLUS',
   paragraphs: [
-    `Chez <strong>Terr'O</strong>, nous refusons la complexité inutile. <strong>Easylo</strong> n'est pas une énième application compliquée pensée par des développeurs en costumes. C'est un outil conçu avec et pour les agriculteurs, dans la simplicité et l'efficacité.`,
-    `Notre approche ? <strong>L'agriculture connectée, enfin accessible</strong>. Nous transformons des heures de paperasse en quelques clics. Nous remplaçons les appels interminables par des informations instantanées. Nous digitisons sans déshumaniser, en gardant le lien précieux entre l'agriculteur et sa coopérative.`,
+    `Chez <strong>Terr'O</strong>, nous refusons la complexité inutile. <strong>Easylo</strong> n'est pas une énième solution logistique générique. C'est un outil pensé pour le terrain : une vue gestionnaire pour piloter, une vue chauffeur pour exécuter — chacun a exactement l'information dont il a besoin.`,
+    `Notre approche ? <strong>L'information au bon moment, au bon endroit</strong>. Le chauffeur reçoit sa destination sur son smartphone avant même d'arriver. Le gestionnaire visualise ses silos en temps réel. Nous accompagnons chaque utilisateur personnellement, parce qu'un outil n'est utile que s'il est adopté. Conçu pour être utilisé en 30 secondes depuis la cabine d'un camion, pas devant un ordinateur.`,
   ],
   images: [
     {
-      src: '/images/fermer1.jpg',
+      src: '/images/silo1.jpg',
       alt: 'Champs agricoles au coucher du soleil',
       height: 'h-[84px] md:h-96',
     },
     {
-      src: '/images/fermer2.jpg',
+      src: '/images/silo2.jpg',
       alt: 'Tracteur dans les champs',
       height: 'h-[184px] md:h-96',
     },

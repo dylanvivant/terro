@@ -158,7 +158,7 @@
       <div class="mx-auto px-4">
         <div class="max-w-6xl mx-auto text-center">
           <h2 class="text-3xl md:text-4xl font-bold text-primary-vert mb-4">
-            Ce qu'AviConnect vous apporte concrètement
+            Ce qu'Avi Connect vous apporte concrètement
           </h2>
           <p class="text-lg md:text-xl text-gray-600 mb-4 max-w-3xl mx-auto">
             Avi Connect, c'est le pilotage de votre élevage à portée de main.
